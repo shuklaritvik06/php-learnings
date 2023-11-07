@@ -34,6 +34,25 @@ class Student extends User
         return $this->email;
     }
 }
+abstract class AbstractClass
+{
+    abstract public function someMethod1();
+
+}
+
+class Implement extends AbstractClass
+{
+    public function someMethod1()
+    {
+        echo "he";
+    }
+    const CONSTANT = "Constant";
+    public function byebye()
+    {
+        echo self::CONSTANT;
+    }
+}
+echo Implement::CONSTANT;
 $user = new User(10, "Ramesh");
 $student = new Student(10, "Ramesh", "ramesh@ramesh.com", 10);
 echo $user->printAge();
