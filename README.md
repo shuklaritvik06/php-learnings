@@ -1,3 +1,11 @@
 # php-learnings
 
-This repo include learnings of PHP
+This repo include learnings of PHP and projects I made
+
+- [x] Basics
+- [x] CRUD
+- [x] File Upload
+- [ ] Auth
+- [ ] OAuth
+- [ ] GraphQL
+- [ ] Laravel
