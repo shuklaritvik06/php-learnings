@@ -53,3 +53,11 @@ print_r($newNumbers);
 
 $newNumbers = array_reduce($numbers, fn($carry, $number) => $number + $carry);
 print_r($newNumbers);
+
+echo array_search("Hello", array(1,2,3,"Hello"));
+
+echo null??"ramesh";
+
+$hello = fn ($name)=>$name."raes";
+echo $hello("Rajesh");
+

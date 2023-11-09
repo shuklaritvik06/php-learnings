@@ -55,5 +55,4 @@ class Implement extends AbstractClass
 echo Implement::CONSTANT;
 $user = new User(10, "Ramesh");
 $student = new Student(10, "Ramesh", "ramesh@ramesh.com", 10);
-echo $user->printAge();
-?>
+$user->printAge();
