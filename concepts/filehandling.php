@@ -12,4 +12,3 @@ if (file_exists($file)) {
 } else {
     echo "File does not exist";
 }
-?>
