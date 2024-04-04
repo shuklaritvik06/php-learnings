@@ -37,7 +37,6 @@ class Student extends User
 abstract class AbstractClass
 {
     abstract public function someMethod1();
-
 }
 
 class Implement extends AbstractClass
