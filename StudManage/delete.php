@@ -1,7 +1,7 @@
 <?php include "./config/database.php" ?>
 
 <?php
-function deletUser($id)
+function deleteUser($id)
 {
     global $connect;
     $sql = "DELETE FROM userphp WHERE id=$id";
@@ -10,8 +10,7 @@ function deletUser($id)
     }
 }
 if (!empty($_GET["id"])) {
-    deletUser($_GET["id"]);
+    deleteUser($_GET["id"]);
 } else {
     header("Location: /StudManage/index.php");
 }
-?>
