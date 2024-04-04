@@ -6,4 +6,3 @@ if (isset($_SESSION["username"])) {
 } else {
     header("Location: /Basics/sessions.php");
 }
-?>

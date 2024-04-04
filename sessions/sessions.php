@@ -15,7 +15,6 @@ if (isset($_POST["submit"])) {
 }
 ?>
 
-
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
     <input type="text" name="username" />
     <input type="password" name="password" id="">
